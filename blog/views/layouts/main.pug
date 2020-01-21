@@ -1,0 +1,13 @@
+include ../mixins/nav
+
+doctype html
+html
+    head
+        title BLOG by 4leaf.ysh
+        link(rel="stylesheet", href="/css/styles.css")
+    body
+        .box
+            .box__nav 
+                +nav
+            .box__content
+                block content
