@@ -2,6 +2,7 @@
 @import "./reset.css";
 @import "./home.css";
 @import "./miniBoard.css";
+@import "./about.css";
 
 body {
   background-image: url(../img/dust_scratches.png);
